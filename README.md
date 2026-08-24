@@ -6,7 +6,7 @@ A premium, low-latency stock trading application built in Flutter. This applicat
 
 ## 📽️ Video Walkthrough & Demo
 
-*(Alternatively, if you downloaded the repository, you can watch the recording directly in the browser via GitHub or open the video file located at `docs/walkthrough.mp4`.)*
+*(Alternatively, if you downloaded the repository, you can watch the recording directly in the browser via GitHub or open the video file located at `trade_app_walkthrough.mp4`.)*
 <video controls src="trade_app_walkthrough.mp4" title="Title"></video>
 <video src="docs/walkthrough.mp4" controls width="100%" poster="docs/app_screenshot.png">
   Your browser does not support the video tag. Please click the link above to watch the walkthrough.
