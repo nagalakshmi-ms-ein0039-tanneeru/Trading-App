@@ -6,10 +6,8 @@ A premium, low-latency stock trading application built in Flutter. This applicat
 
 ## 📽️ Video Walkthrough & Demo
 
-### **[👉 Watch the Walkthrough Video (Loom Link) 👈](YOUR_LOOM_VIDEO_LINK_HERE)**
-
 *(Alternatively, if you downloaded the repository, you can watch the recording directly in the browser via GitHub or open the video file located at `docs/walkthrough.mp4`.)*
-
+<video controls src="trade_app_walkthrough.mp4" title="Title"></video>
 <video src="docs/walkthrough.mp4" controls width="100%" poster="docs/app_screenshot.png">
   Your browser does not support the video tag. Please click the link above to watch the walkthrough.
 </video>
@@ -81,49 +79,3 @@ Make sure you have [Flutter SDK](https://docs.flutter.dev/get-started/install) i
      ```
 
 ---
-
-## 🛠️ Step-by-Step: Git Upload & Attaching Your Demo Video
-
-Here are instructions on how to push your code to GitHub and attach your demo screen recording:
-
-### Step 1: Initialize Git and Push to GitHub
-1. Create a **Public** repository on [GitHub](https://github.com). Let's call it `trading_app`. Do **not** initialize it with a README or gitignore.
-2. Open terminal in the project directory (`Documents/trading_app`) and run:
-   ```bash
-   # Initialize local git repo
-   git init
-   
-   # Add all files to staging
-   git add .
-   
-   # Commit files
-   git commit -m "Initial release of Technical Trading App"
-   
-   # Set primary branch to main
-   git branch -M main
-   
-   # Link local repo to your GitHub remote
-   git remote add origin https://github.com/YOUR_GITHUB_USERNAME/trading_app.git
-   
-   # Push files
-   git push -u origin main
-   ```
-
-### Step 2: Attach the Walkthrough Video (Two Methods)
-
-#### Method A: Direct Upload to Git (Recommended for neat README rendering)
-GitHub supports HTML5 video rendering inside Markdown files!
-1. Create a directory named `docs` in your project folder.
-2. Save your screen recording as `walkthrough.mp4` and place it inside `docs/`. (Keep the size under 50MB for faster download times).
-3. Commit and push the video file:
-   ```bash
-   git add docs/walkthrough.mp4
-   git commit -m "docs: Add walkthrough video"
-   git push
-   ```
-4. GitHub will automatically load and play the video within the README file under the **Video Walkthrough** section!
-
-#### Method B: Loom Link (Recommended if the video file is large)
-1. Record your screen using [Loom](https://www.loom.com).
-2. Copy the share link.
-3. Open `README.md` and replace the placeholder link `YOUR_LOOM_VIDEO_LINK_HERE` with your Loom URL.
